@@ -6,8 +6,8 @@ function calculateBMI() {
       
     document.getElementById("txt-bmi").innerHTML="BMI: "+ bmi;
 
-    if(bmi<18.5_){
-        document.getElementById("txt-remark").innerHTML="Underweight";
+    if(bmi < 18.5) {
+        document.getElementById("txt-remark").innerHTML = "Underweight";
     }
     else if(bmi >=18.5 && bmi <=24.9){
         document.getElementById("txt-remark").innerHTML="Normal";
